@@ -1,0 +1,39 @@
+{
+  "name": "@vandeurenglenn/draw-space",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "b": "browserify ./draw-space.js -o draw-space.browser.js --standAlone drawSpace",
+    "c": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VandeurenGlenn/draw-space.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VandeurenGlenn/draw-space/issues"
+  },
+  "homepage": "https://github.com/VandeurenGlenn/draw-space#readme",
+  "dependencies": {
+    "@leofcoin/storage": "^2.0.0",
+    "custom-drawer": "^1.0.0",
+    "custom-selector": "^0.2.1",
+    "custom-svg-icon": "^0.10.2",
+    "custom-svg-iconset": "^0.9.2",
+    "fabric": "^3.6.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-json": "^4.0.3",
+    "@rollup/plugin-node-resolve": "^7.1.3",
+    "browserify": "^16.5.1",
+    "rollup": "^2.8.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
