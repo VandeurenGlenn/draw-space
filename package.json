@@ -25,7 +25,7 @@
     "custom-selector": "^0.2.1",
     "custom-svg-icon": "^0.10.2",
     "custom-svg-iconset": "^0.9.2",
-    "fabric": "^3.6.3"
+    "fabric": "^5.0.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.1.0",
